@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<dimen name="empty_text">18sp</dimen>
+    <dimen name="headline">18sp</dimen>
+    <dimen name="date">9sp</dimen>
+    <dimen name="text">12sp</dimen>
+    <dimen name="margins">10dp</dimen>
+    <dimen name="text_padding">15dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="radius">5dp</dimen>
+    <dimen name="right_left">1dp</dimen>
+    <dimen name="bottom">2dp</dimen>
+    <dimen name="list_height">300dp</dimen>
+    <dimen name="image_height">200dp</dimen>
+    <dimen name="section_bottom">100dp</dimen>
+    <dimen name="section_end">52dp</dimen>
+    <dimen name="title_margin">20dp</dimen>
+    <dimen name="date_margin">33dp</dimen>
+    <dimen name="author_end">31dp</dimen>
+    <dimen name="author_top">-33dp</dimen>
+</resources>

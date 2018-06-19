@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_height"
+    android:layout_margin="@dimen/margins"
+    android:background="@drawable/list_shadow">
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/image_height"
+        android:scaleType="centerCrop"
+        android:src="@drawable/restaurant" />
+
+    <TextView
+        android:id="@+id/section"
+        style="@style/Section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/section_bottom"
+        android:layout_marginEnd="@dimen/section_end"
+        android:text="Section" />
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/section_end"
+        android:layout_marginStart="@dimen/title_margin"
+        android:fontFamily="@font/playfair"
+        android:text="Title" />
+
+    <TextView
+        android:id="@+id/date"
+        style="@style/Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/title"
+        android:layout_marginBottom="@dimen/date_margin"
+        android:fontFamily="@font/lato_light"
+        android:text="2018.06.14. 0:33" />
+
+    <TextView
+        android:id="@+id/author"
+        style="@style/Author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/date"
+        android:layout_marginEnd="@dimen/author_end"
+        android:layout_marginTop="@dimen/author_top"
+        android:fontFamily="@font/lato"
+        android:text="Jessica Jones" />
+
+
+</RelativeLayout>

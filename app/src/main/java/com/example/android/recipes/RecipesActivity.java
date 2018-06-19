@@ -21,7 +21,7 @@ import java.util.List;
 public class RecipesActivity extends AppCompatActivity implements LoaderManager.LoaderCallbacks<List<Recipes>> {
 
     private static final String GUARDIAN_REQUEST_URL =
-            "https://content.guardianapis.com/search?from-date=2017-01-01&show-fields=byline%2Cthumbnail&page-size=15&q=recipes&api-key=0869c196-c93c-4456-b45c-d6df75e35f16";
+            "https://content.guardianapis.com/search?from-date=2017-01-01&show-fields=byline%2Cthumbnail&page-size=15&q=recipes&api-key=";
 
     private static final int RECIPES_LOADER_ID = 1;
 

@@ -24,7 +24,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="@dimen/section_bottom"
         android:layout_marginEnd="@dimen/section_end"
-        android:text="Section" />
+        tools:text="Section" />
 
     <TextView
         android:id="@+id/title"
@@ -36,7 +36,7 @@
         android:layout_marginBottom="@dimen/section_end"
         android:layout_marginStart="@dimen/title_margin"
         android:fontFamily="@font/playfair"
-        android:text="Title" />
+        tools:text="Title" />
 
     <TextView
         android:id="@+id/date"
@@ -47,7 +47,7 @@
         android:layout_alignStart="@+id/title"
         android:layout_marginBottom="@dimen/date_margin"
         android:fontFamily="@font/lato_light"
-        android:text="2018.06.14. 0:33" />
+        tools:text="2018.06.14. 0:33" />
 
     <TextView
         android:id="@+id/author"
@@ -59,7 +59,7 @@
         android:layout_marginEnd="@dimen/author_end"
         android:layout_marginTop="@dimen/author_top"
         android:fontFamily="@font/lato"
-        android:text="Jessica Jones" />
+        tools:text="Jessica Jones" />
 
 
 </RelativeLayout>
